@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testscripts]">
+  <parameter name="browser" value="IE"/>
+  <test name="IE Test">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="testscripts.Testcreatethirdparty"/>
+    </classes>
+  </test> <!-- IE Test -->
+</suite> <!-- Failed suite [testscripts] -->

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testscripts" duration-ms="120139" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:20:59 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="demoTest.demo2()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo2" class="testscripts.demoTest"/>
+        <method signature="demoTest.demo4()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo4" class="testscripts.demoTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="demoTest.demo1()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo1" class="testscripts.demoTest"/>
+        <method signature="demoTest.demo3()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo3" class="testscripts.demoTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="testscripts" duration-ms="120139" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:20:59 IST">
+      <class name="testscripts.TestUser1ThirdPartyNavigate">
+        <test-method status="PASS" signature="User1_Navigate_NewThirdParty()[pri:2, instance:testscripts.TestUser1ThirdPartyNavigate@853265]" name="User1_Navigate_NewThirdParty" duration-ms="14552" started-at="2021-01-10T21:20:44 IST" finished-at="2021-01-10T21:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1_Navigate_NewThirdParty -->
+      </class> <!-- testscripts.TestUser1ThirdPartyNavigate -->
+      <class name="testscripts.TestEndtoEndScenario1">
+        <test-method status="PASS" signature="runbeforesuite()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="runbeforesuite" is-config="true" duration-ms="62" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runbeforesuite -->
+        <test-method status="PASS" signature="Befortest()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="Befortest" is-config="true" duration-ms="0" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Befortest -->
+        <test-method status="PASS" signature="runbeforetestcases()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="runbeforetestcases" is-config="true" duration-ms="6993" started-at="2021-01-10T21:19:29 IST" finished-at="2021-01-10T21:19:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runbeforetestcases -->
+        <test-method status="PASS" signature="Beformethod()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="Beformethod" is-config="true" duration-ms="0" started-at="2021-01-10T21:19:36 IST" finished-at="2021-01-10T21:19:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beformethod -->
+        <test-method status="PASS" signature="username()[pri:1, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="username" duration-ms="481" started-at="2021-01-10T21:19:36 IST" finished-at="2021-01-10T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="aftereverytestwait()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="aftereverytestwait" is-config="true" duration-ms="15" started-at="2021-01-10T21:19:37 IST" finished-at="2021-01-10T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverytestwait -->
+        <test-method status="PASS" signature="Beformethod()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="Beformethod" is-config="true" duration-ms="16" started-at="2021-01-10T21:19:37 IST" finished-at="2021-01-10T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beformethod -->
+        <test-method status="PASS" signature="password()[pri:2, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="password" duration-ms="347" started-at="2021-01-10T21:19:37 IST" finished-at="2021-01-10T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method status="PASS" signature="aftereverytestwait()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="aftereverytestwait" is-config="true" duration-ms="10" started-at="2021-01-10T21:19:37 IST" finished-at="2021-01-10T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverytestwait -->
+        <test-method status="PASS" signature="submit()[pri:3, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="submit" duration-ms="3700" started-at="2021-01-10T21:19:37 IST" finished-at="2021-01-10T21:19:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method status="PASS" signature="Beformethod()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="Beformethod" is-config="true" duration-ms="0" started-at="2021-01-10T21:19:37 IST" finished-at="2021-01-10T21:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beformethod -->
+        <test-method status="PASS" signature="aftereverytestwait()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="aftereverytestwait" is-config="true" duration-ms="15" started-at="2021-01-10T21:19:41 IST" finished-at="2021-01-10T21:19:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverytestwait -->
+        <test-method status="PASS" signature="Beformethod()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="Beformethod" is-config="true" duration-ms="0" started-at="2021-01-10T21:19:41 IST" finished-at="2021-01-10T21:19:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beformethod -->
+        <test-method status="PASS" signature="logout()[pri:4, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="logout" duration-ms="1658" started-at="2021-01-10T21:19:41 IST" finished-at="2021-01-10T21:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="aftereverytestwait()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="aftereverytestwait" is-config="true" duration-ms="20" started-at="2021-01-10T21:19:43 IST" finished-at="2021-01-10T21:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereverytestwait -->
+        <test-method status="PASS" signature="Aftrclass()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="Aftrclass" is-config="true" duration-ms="5" started-at="2021-01-10T21:19:43 IST" finished-at="2021-01-10T21:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftrclass -->
+        <test-method status="PASS" signature="aftertestwait()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="aftertestwait" is-config="true" duration-ms="380" started-at="2021-01-10T21:20:59 IST" finished-at="2021-01-10T21:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertestwait -->
+        <test-method status="PASS" signature="runaftersuite()[pri:0, instance:testscripts.TestEndtoEndScenario1@1bfb90a]" name="runaftersuite" is-config="true" duration-ms="0" started-at="2021-01-10T21:20:59 IST" finished-at="2021-01-10T21:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runaftersuite -->
+      </class> <!-- testscripts.TestEndtoEndScenario1 -->
+      <class name="testscripts.Testuser1Login">
+        <test-method status="PASS" signature="User1_Login_Test()[pri:1, instance:testscripts.Testuser1Login@8806ef]" name="User1_Login_Test" duration-ms="42886" started-at="2021-01-10T21:19:43 IST" finished-at="2021-01-10T21:20:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1_Login_Test -->
+      </class> <!-- testscripts.Testuser1Login -->
+      <class name="testscripts.demoTest">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo1" duration-ms="0" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="demo2()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo2" duration-ms="0" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method status="PASS" signature="demo3()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo3" duration-ms="0" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="demo4()[pri:0, instance:testscripts.demoTest@29daf3]" name="demo4" duration-ms="0" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- testscripts.demoTest -->
+      <class name="testscripts.Testcreatethirdparty">
+        <test-method status="PASS" signature="User1_CreateNewThirdParty()[pri:0, instance:testscripts.Testcreatethirdparty@1660f4e]" name="User1_CreateNewThirdParty" duration-ms="30438" started-at="2021-01-10T21:18:59 IST" finished-at="2021-01-10T21:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1_CreateNewThirdParty -->
+      </class> <!-- testscripts.Testcreatethirdparty -->
+      <class name="testscripts.Testuser1Logout">
+        <test-method status="PASS" signature="User1_Logout_Test()[pri:1, instance:testscripts.Testuser1Logout@49835d]" name="User1_Logout_Test" duration-ms="18394" started-at="2021-01-10T21:20:26 IST" finished-at="2021-01-10T21:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1_Logout_Test -->
+      </class> <!-- testscripts.Testuser1Logout -->
+    </test> <!-- testscripts -->
+  </suite> <!-- testscripts -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="testscripts">
+
+<test name="IE Test">
+		
+			<parameter name="browser" value="IE"/>
+			
+		<classes>
+				<class name="testscripts.Testcreatethirdparty"/>
+		</classes>
+
+</test>
+
+</suite>

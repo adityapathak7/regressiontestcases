@@ -1,0 +1,6 @@
+testscripts\Testcreatethirdparty.class
+testscripts\demoTest.class
+testscripts\Testuser1Login.class
+testscripts\Testuser1Logout.class
+testscripts\TestEndtoEndScenario1.class
+testscripts\TestUser1ThirdPartyNavigate.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regressiontestsuite">
+	<test name="regression testcases">
+		<groups>
+			<run>
+				<include name="Regression">
+			</include>
+			</run>
+		</groups>
+	    		<classes>
+	    			   <class name="testscripts.demoTest"/>
+      			</classes>       	  
+	</test>
+</suite> <!-- smoke -->

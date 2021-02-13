@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testscripts">
+              <span class="suite-name border-passed">testscripts</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testscripts">
+                    <span>C:\Users\pa\Desktop\MERP2\testscripts.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testscripts">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testscripts">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testscripts">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testscripts">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testscripts">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testscripts">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testscripts" class="hide-methods passed suite-testscripts"> (hide)</a> <!-- hide-methods passed suite-testscripts -->
+                      <a href="#" panel-name="suite-testscripts" class="show-methods passed suite-testscripts"> (show)</a> <!-- show-methods passed suite-testscripts -->
+                    </span>
+                    <div class="method-list-content passed suite-testscripts">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.Testcreatethirdparty" hash-for-method="User1_CreateNewThirdParty">User1_CreateNewThirdParty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.Testuser1Login" hash-for-method="User1_Login_Test">User1_Login_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.Testuser1Logout" hash-for-method="User1_Logout_Test">User1_Logout_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.TestUser1ThirdPartyNavigate" hash-for-method="User1_Navigate_NewThirdParty">User1_Navigate_NewThirdParty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.demoTest" hash-for-method="demo1">demo1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.demoTest" hash-for-method="demo2">demo2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.demoTest" hash-for-method="demo3">demo3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.demoTest" hash-for-method="demo4">demo4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.TestEndtoEndScenario1" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.TestEndtoEndScenario1" hash-for-method="password">password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.TestEndtoEndScenario1" hash-for-method="submit">submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testscripts" title="testscripts.TestEndtoEndScenario1" hash-for-method="username">username</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testscripts -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testscripts" class="panel testscripts">
+          <div class="suite-testscripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.demoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo1">
+                  </a> <!-- demo1 -->
+                  <span class="method-name">demo1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo2">
+                  </a> <!-- demo2 -->
+                  <span class="method-name">demo2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo3">
+                  </a> <!-- demo3 -->
+                  <span class="method-name">demo3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="demo4">
+                  </a> <!-- demo4 -->
+                  <span class="method-name">demo4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testscripts-class-passed -->
+          <div class="suite-testscripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.TestUser1ThirdPartyNavigate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="User1_Navigate_NewThirdParty">
+                  </a> <!-- User1_Navigate_NewThirdParty -->
+                  <span class="method-name">User1_Navigate_NewThirdParty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testscripts-class-passed -->
+          <div class="suite-testscripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.Testuser1Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="User1_Login_Test">
+                  </a> <!-- User1_Login_Test -->
+                  <span class="method-name">User1_Login_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testscripts-class-passed -->
+          <div class="suite-testscripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.Testuser1Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="User1_Logout_Test">
+                  </a> <!-- User1_Logout_Test -->
+                  <span class="method-name">User1_Logout_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testscripts-class-passed -->
+          <div class="suite-testscripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.TestEndtoEndScenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="password">
+                  </a> <!-- password -->
+                  <span class="method-name">password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submit">
+                  </a> <!-- submit -->
+                  <span class="method-name">submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="username">
+                  </a> <!-- username -->
+                  <span class="method-name">username</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testscripts-class-passed -->
+          <div class="suite-testscripts-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.Testcreatethirdparty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="User1_CreateNewThirdParty">
+                  </a> <!-- User1_CreateNewThirdParty -->
+                  <span class="method-name">User1_CreateNewThirdParty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testscripts-class-passed -->
+        </div> <!-- panel testscripts -->
+        <div panel-name="test-xml-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pa\Desktop\MERP2\testscripts.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;testscripts&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;testscripts&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;testscripts&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.demoTest&quot;/&gt;
+      &lt;class name=&quot;testscripts.Testcreatethirdparty&quot;/&gt;
+      &lt;class name=&quot;testscripts.TestEndtoEndScenario1&quot;/&gt;
+      &lt;class name=&quot;testscripts.Testuser1Login&quot;/&gt;
+      &lt;class name=&quot;testscripts.Testuser1Logout&quot;/&gt;
+      &lt;class name=&quot;testscripts.TestUser1ThirdPartyNavigate&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testscripts --&gt;
+&lt;/suite&gt; &lt;!-- testscripts --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testscripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testscripts (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testscripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">demo3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testscripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testscripts');
+function tableData_testscripts() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'User1_Login_Test')
+data.setCell(0, 2, 'testscripts.Testuser1Login')
+data.setCell(0, 3, 42886);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'User1_CreateNewThirdParty')
+data.setCell(1, 2, 'testscripts.Testcreatethirdparty')
+data.setCell(1, 3, 30438);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'User1_Logout_Test')
+data.setCell(2, 2, 'testscripts.Testuser1Logout')
+data.setCell(2, 3, 18394);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'User1_Navigate_NewThirdParty')
+data.setCell(3, 2, 'testscripts.TestUser1ThirdPartyNavigate')
+data.setCell(3, 3, 14552);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'submit')
+data.setCell(4, 2, 'testscripts.TestEndtoEndScenario1')
+data.setCell(4, 3, 3700);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logout')
+data.setCell(5, 2, 'testscripts.TestEndtoEndScenario1')
+data.setCell(5, 3, 1658);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'username')
+data.setCell(6, 2, 'testscripts.TestEndtoEndScenario1')
+data.setCell(6, 3, 481);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'password')
+data.setCell(7, 2, 'testscripts.TestEndtoEndScenario1')
+data.setCell(7, 3, 347);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'demo1')
+data.setCell(8, 2, 'testscripts.demoTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'demo2')
+data.setCell(9, 2, 'testscripts.demoTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'demo3')
+data.setCell(10, 2, 'testscripts.demoTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'demo4')
+data.setCell(11, 2, 'testscripts.demoTest')
+data.setCell(11, 3, 0);
+window.suiteTableData['testscripts']= { tableData: data, tableDiv: 'times-div-testscripts'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-testscripts">
+              </div> <!-- times-div-testscripts -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testscripts</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testscripts" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.TestEndtoEndScenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">runbeforesuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">Befortest</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.demoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">demo1</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo2</span>
+                <span class="method-start">249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo3</span>
+                <span class="method-start">265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">demo4</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.Testcreatethirdparty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">User1_CreateNewThirdParty</span>
+                <span class="method-start">281 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.TestEndtoEndScenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">runbeforetestcases</span>
+                <span class="method-start">30719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Beformethod</span>
+                <span class="method-start">37712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">username</span>
+                <span class="method-start">37717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftereverytestwait</span>
+                <span class="method-start">38198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Beformethod</span>
+                <span class="method-start">38213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">password</span>
+                <span class="method-start">38229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftereverytestwait</span>
+                <span class="method-start">38576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Beformethod</span>
+                <span class="method-start">38586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submit</span>
+                <span class="method-start">38586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftereverytestwait</span>
+                <span class="method-start">42286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Beformethod</span>
+                <span class="method-start">42301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">42301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftereverytestwait</span>
+                <span class="method-start">43959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">Aftrclass</span>
+                <span class="method-start">43984 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.Testuser1Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">User1_Login_Test</span>
+                <span class="method-start">43989 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.Testuser1Logout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">User1_Logout_Test</span>
+                <span class="method-start">86875 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.TestUser1ThirdPartyNavigate</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">User1_Navigate_NewThirdParty</span>
+                <span class="method-start">105269 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.TestEndtoEndScenario1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertestwait</span>
+                <span class="method-start">119821 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">runaftersuite</span>
+                <span class="method-start">120640 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
