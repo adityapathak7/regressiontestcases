@@ -15,7 +15,7 @@ public class Testcreatethirdparty extends CrossBrowserTestingScript
 	@Test //(priority = 3)//(enabled=false)
 	public void User1_CreateNewThirdParty()
 		{
-		//System.setProperty("webdriver.chrome.driver", "E:\\software\\selenium drivers\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\patha\\Desktop\\Selenium\\chromedriver.exe");
 		//WebDriver driver=new ChromeDriver();
 		
 		LoginPageObjects log = new LoginPageObjects(driver);

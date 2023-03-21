@@ -35,7 +35,7 @@ public class TestEndtoEndScenario1
 		@BeforeClass
 		public void runbeforetestcases()
 		{
-			System.setProperty("webdriver.chrome.driver", "E:\\software\\selenium drivers\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\patha\\Desktop\\Selenium\\chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.get("http://localhost/dolibarr-3.1.1/htdocs/index.php");	
 			System.out.println("Before Class -- Executed");

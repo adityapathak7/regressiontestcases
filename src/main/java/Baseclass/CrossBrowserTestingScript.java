@@ -12,6 +12,7 @@ import Listeners.RetryAnalyzer;
 public class CrossBrowserTestingScript
 {
 	public WebDriver driver;
+	public String path = "C:\\Users\\patha\\Desktop\\Selenium\\chromedriver.exe";
 
 	@SuppressWarnings("deprecation")
 	@Parameters("browser")
@@ -23,12 +24,12 @@ public class CrossBrowserTestingScript
 		
 		if(browsername.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","E:\\software\\selenium drivers\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","path");
 			driver=new ChromeDriver();
 		}
 		else if(browsername.equalsIgnoreCase("ie"))
 		{
-			System.setProperty("webdriver.ie.driver","E:\\software\\selenium drivers\\IEDriverServer_Win32_3.8.0\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver","path");
 			driver=new InternetExplorerDriver();	
 		}
 		else

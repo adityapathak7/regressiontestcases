@@ -19,18 +19,18 @@ public class appsierralink
   	@BeforeTest
   	public void setUp()
   	{
-  		System.setProperty("webdriver.chrome.driver", "E:\\software\\selenium drivers\\chromedriver_win32\\chromedriver.exe");
+  		System.setProperty("webdriver.chrome.driver", "C:\\Users\\patha\\Desktop\\Selenium\\chromedriver.exe");
   		driver=new ChromeDriver();
   	}
 	
 	@Test
 	public void linkheader() throws InterruptedException
 	{
-		driver.get("https://www.seleniumeasy.com/test/");
+		driver.get("https://www.seleniumeasy.com");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		
-		String navbar = driver.findElement(By.xpath("/html/body/div[1]/div[2]/nav")).getText();
+		String navbar = driver.findElement(By.xpath("//*[@id=\"navbar\"]")).getText();
 		//subsequence for characters
 		//substring for fetching strings
 		
